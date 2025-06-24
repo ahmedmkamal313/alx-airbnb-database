@@ -8,7 +8,7 @@ This document outlines the Entity-Relationship Diagram (ERD) for the AirBnB data
 
 Below is the visual representation of the ER Diagram.
 
-![AirBnB ER Diagram](ERD/YOUR_ER_DIAGRAM_FILENAME.png)
+![AirBnB ER Diagram](https://github.com/ahmedmkamal313/alx-airbnb-database/blob/main/ERD/airbnb_erd.PNG)
 
 ---
 
