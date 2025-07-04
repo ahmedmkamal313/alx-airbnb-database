@@ -126,54 +126,59 @@ File: [`database-script-0x02/seed.sql`](./database-script-0x02/seed.sql)
 ## 📈 Advanced SQL Querying & Optimization
 This section highlights the advanced SQL tasks undertaken to master complex querying, optimization, indexing, partitioning, and performance monitoring.
 
-**1. Complex Queries with Joins**
+### 1. Complex Queries with Joins
 Demonstrates the use of INNER JOIN, LEFT JOIN, and FULL OUTER JOIN to combine data from multiple tables.
 
   > 📘 See: [database-adv-script/joins_queries.sql](./database-adv-script/joins_queries.sql)
 
-**2. Power of Subqueries**
+### 2. Power of Subqueries
 Explores both correlated and non-correlated subqueries for advanced data retrieval and filtering.
 
   > 📘 See: [database-adv-script/subqueries.sql](./database-adv-script/subqueries.sql)
 
-**3. Aggregations and Window Functions**
+### 3. Aggregations and Window Functions
 Applies SQL aggregation functions (COUNT, SUM, AVG) with GROUP BY and advanced window functions (ROW_NUMBER, RANK) for data analysis and ranking.
 
    > 📘 See: [database-adv-script/aggregations_and_window_functions.sql](./database-adv-script/aggregations_and_window_functions.sql)
 
-**4. Indexing for Optimization**
+### 4. Indexing for Optimization
 Identifies high-usage columns and implements appropriate indexes to significantly improve query performance. Includes performance measurement before and after indexing.
 
   > 📘 See: [database-adv-script/database_index.sql](./database-adv-script/database_index.sql)
+
   > 🧾 Performance Report: [database-adv-script/index_performance.md](./database-adv-script/index_performance.md))
 
-**5. Query Optimization Techniques**
+### 5. Query Optimization Techniques
 Analyzes complex queries for inefficiencies using EXPLAIN ANALYZE and refactors them to reduce execution time.
 
   > 📘 See: [database-adv-script/performance.sql](./database-adv-script/performance.sql)
+
   > 🧾 Optimization Report: [database-adv-script/optimization_report.md](./database-adv-script/optimization_report.md)
 
-**6. Partitioning Large Tables**
+### 6. Partitioning Large Tables
 Implements table partitioning on the Bookings table based on date ranges to optimize queries on large datasets.
 
-  > 📘 See: [database-adv-script/partitioning.sql](./database-adv-script/partitioning.sql))
+  > 📘 See: [database-adv-script/partitioning.sql](./database-adv-script/partitioning.sql)
+
   > 🧾 Performance Report: [database-adv-script/partition_performance.md](./database-adv-script/partition_performance.md)
 
-**7. Performance Monitoring and Schema Refinement**
+### 7. Performance Monitoring and Schema Refinement
 Details the process of continuously monitoring database performance, identifying bottlenecks, and suggesting/implementing schema adjustments for ongoing optimization.
 
   > 🧾 See: [database-adv-script/performance_monitoring.md](./database-adv-script/performance_monitoring.md)
 
 ---
 
-## 🔗 Related Files
+## 🔗 Quick Access
 
-- ER Diagram: [`./ERD/airbnb_erd.png`](./ERD/airbnb_erd.png)
-- ERD Metadata: [`./ERD/requirements.md`](./ERD/requirements.md)
-- Schema: [`./database-script-0x01/schema.sql`](./database-script-0x01/schema.sql)
-- Normalization: [`./normalization.md`](./normalization.md)
-- Seed Data: [`./database-script-0x02/seed.sql`](./database-script-0x02/seed.sql)
-- Advanced Queries: [`./database-adv-script/`](./database-adv-script/)
+| Resource | Path |
+|----------|------|
+| 🧾 ER Diagram | [`ERD/airbnb_erd.PNG`](./ERD/airbnb_erd.PNG) |
+| 🔍 Entity Descriptions | [`ERD/requirements.md`](./ERD/requirements.md) |
+| 🏗️ Schema (DDL) | [`database-script-0x01/schema.sql`](./database-script-0x01/schema.sql) |
+| 🧪 Seed Data (DML) | [`database-script-0x02/seed.sql`](./database-script-0x02/seed.sql) |
+| 🧼 Normalization Notes | [`normalization.md`](./normalization.md) |
+| 📈 Advanced SQL Scripts | [`database-adv-script/`](./database-adv-script/) |
 
 ---
 ### 👤 Author
