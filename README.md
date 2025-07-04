@@ -48,7 +48,7 @@ The ER diagram visualizes the relationships between major entities:
 - **Bookings** made by guests
 - **Payments**, **Reviews**, and **Messages**
 
-![ERD](./ERD/airbnb_erd.png)
+![ERD](https://github.com/ahmedmkamal313/alx-airbnb-database/blob/main/ERD/airbnb_erd.PNG)
 
 > 🧾 Full breakdown of entities, attributes, relationships, and cardinalities:  
 > [ERD/requirements.md](./ERD/requirements.md)
